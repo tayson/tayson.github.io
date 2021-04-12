@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: rgb(33,37,41);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+header {
+    background-color: rgb(249,250,252);
+    border-style: solid;
+    border-color: rgb(217,219,219);
+    border-width: 0px 0px 1px 0px;
+}
+
+header .wrapper {
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .site-name {
+    font-size: 1.5em;
+    color: rgb(33,37,41);
+    font-weight: bold;
+}
+
+.description {
+    margin-top: 0px;
+}
+
+.description a {
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    line-height: 1.5em;
+}
+
+nav li a.selected {
+    font-weight: bold;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2, h3, h4, h5, h6 {
+    margin: 20px 0px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 2em;
+}
+
+a {
+    color: inherit;
+}
+
+hr {
+    background-color: rgb(231,233,236);
+    border: none;
+    height: 1px;
+    margin-top: 40px;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-list > li {
+    display: block;
+    padding: 20px;
+    border-radius: 5px;
+    /*background-color: #eee;*/
+    /*margin-bottom: 20px;*/
+}
+
+.item-list h1 {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.item-list a {
+    text-decoration: none;
+}
+
+.tag-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.tag-list li,
+.tag {
+    display: inline-block;
+    background-color: rgb(249,250,252);
+    color: rgb(33,37,41);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(217,219,219);
+    border-width: 1px;
+    margin-right: 5px;
+}
+
+.tag-list a,
+.tag a {
+    text-decoration: none;
+}
+
+.item-page .tag-list {
+    display: inline-block;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+.browse-all {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.all-tags li {
+    font-size: 1.3em;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+footer {
+    color: rgb(78,86,94);
+    font-size: 0.8em;
+}
+
+.post-date {
+    color: rgb(78,86,94);
+    margin-right: 10px;
+}
+
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(217,219,219);
+    border-width: 1px;
+    width: 100px;
+    height: auto;
+}
+
+.content ul {
+  padding-left: 30px;
+  line-height: 2em;
+  margin-bottom: 10px;
+}
+
+.content blockquote {
+    border-left: 5px solid rgb(218,222,225);
+    margin: 20px 0px;
+    padding: 0px 10px;
+    color: rgb(95,104,113);
+}
+
+.inline-code {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", Courier, monospace;
+    background-color: rgb(241,242,242);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+pre {
+    margin-bottom: 1.5em;
+    background-color: rgb(245,247,249);
+    padding: 16px 0;
+    border-radius: 5px;
+}
+
+pre code {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", Courier, monospace;
+    display: block;
+    padding: 0 20px;
+    color: rgb(33,37,41);
+    line-height: 1.5em;
+    font-size: 0.9em;
+    overflow-x: auto;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+}
+
+pre code .keyword {
+    color: #e73289;
+}
+
+pre code .type {
+    color: #8281ca;
+}
+
+pre code .call {
+    color: #348fe5;
+}
+
+pre code .property {
+    color: #21ab9d;
+}
+
+pre code .number {
+    color: #db6f57;
+}
+
+pre code .string {
+    color: #fa641e;
+}
+
+pre code .comment {
+    color: #6b8a94;
+}
+
+pre code .dotAccess {
+    color: #92b300;
+}
+
+pre code .preprocessing {
+    color: #b68a00;
+}
